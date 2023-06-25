@@ -1,5 +1,6 @@
 import Card from "./Card";
 import data from "../data/projects.json";
+import { motion, stagger } from "framer-motion";
 
 export default function RecentProjects() {
   return (
@@ -10,7 +11,16 @@ export default function RecentProjects() {
           (More coming soon)
         </span>
       </div>
-      <div className="carousel rounded-box">
+      <motion.div
+        initial={{ x: "100%", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          duration: 0.5,
+          when: "beforeChildren",
+          staggerChildren: 0.4,
+        }}
+        className="carousel rounded-box"
+      >
         {data.map((project) => (
           <div key={project.title} className="carousel-item m-2">
             <Card
@@ -22,7 +32,7 @@ export default function RecentProjects() {
             />
           </div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }
