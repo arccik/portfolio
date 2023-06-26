@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="navbar bg-base-100">
       <motion.div
-        initial={{ scale: 0 }}
+        initial={{ scale: 0, x: -100 }}
         animate={{ x: 0, scale: 1 }}
         transition={{
           type: "spring",
@@ -20,10 +20,7 @@ export default function Header() {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

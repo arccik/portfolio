@@ -13,7 +13,7 @@ export default function Card({ title, description, image, tags }: Props) {
         <p>{description}</p>
         <div className="card-actions justify-end">
           {tags.map((tag) => (
-            <div key={tag} className="badge badge-outline">
+            <div key={tag} className="badge badge-primary">
               {tag}
             </div>
           ))}

@@ -9,11 +9,11 @@ export default function Services() {
       <h1 className="text-5xl font-bold text-center pb-10">
         I can help you with
       </h1>
-      <div className="flex md:flex-row flex-col gap-4">
+      <div className="flex md:flex-row flex-col gap-4  place-items-center">
         {services.map((item, index) => (
           <div
             key={index}
-            className="card w-full md:w-96 bg-base-100 shadow-xl hover:bg-black"
+            className="card w-11/12 md:w-96 bg-base-100 shadow-xl hover:bg-black"
           >
             <div className="card-body">
               <h2 className="card-title group-hover:text-secondary hover:text-secondary">
