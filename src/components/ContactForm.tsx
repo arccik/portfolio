@@ -29,13 +29,15 @@ export default function GetInTouch() {
   if (isEmailSent)
     return <p className="text-center text-5xl bg-base-300">Email Sent</p>;
   return (
-    <div className="flex flex-col items-center justify-end md:justify-center w-full h-screen bg-base-100">
-      <div className="text-center" id="contact">
-        <p className="font-medium text-xl text-secondary">Contact me</p>
+    <div className="flex flex-col items-center justify-end md:justify-center w-full  bg-base-300 pb-10">
+      <div></div>
+      <div className="carousel-indicator text-center p-5" id="contact">
+        <h1 className="text-4xl font-bold">Contact me</h1>
+        <span className="text-secondary text-xs font-light">
+          Got an idea? Feel free to reach out for collabs
+        </span>
       </div>
-      <h1 className="text-3xl font-bold text-center pb-10">
-        Got an idea? Feel free to reach out for collabs
-      </h1>
+
       <form
         ref={form}
         onSubmit={sendEmail}

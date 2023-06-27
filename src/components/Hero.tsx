@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="hero md:h-screen h-[100wvh] bg-base-200">
       <div className="hero-content flex-col md:flex-row-reverse">
         <Lottie
-          className="scale-150"
+          className="md:scale-150"
           animationData={animationData}
           width={500}
           height={500}
