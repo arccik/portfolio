@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 export default function Header() {
   return (
     <header className="navbar bg-base-100">
