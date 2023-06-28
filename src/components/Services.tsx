@@ -8,7 +8,7 @@ import {
 export default function Services() {
   const icons = [<PiStrategyFill />, <PiTreePalmBold />, <PiBoundingBoxBold />];
   return (
-    <section className="h-screen md:flex md:flex-col justify-center items-center  bg-base-300">
+    <section className="md:flex md:flex-col md:justify-center items-center  bg-base-300">
       <div className="carousel-indicator text-center p-5">
         <h1 className="text-4xl font-bold">Services</h1>
         <span className="text-secondary text-xs font-light">
@@ -16,11 +16,11 @@ export default function Services() {
         </span>
       </div>
 
-      <div className="flex lg:flex-row flex-col gap-4 place-items-center p-10">
+      <div className="flex lg:flex-row flex-col gap-4 place-items-center pb-5">
         {services.map((item, index) => (
           <div
-            key={index}
-            className="card w-96 h-72 bg-base-100 shadow-xl hover:bg-base-300 group"
+            key={item.title}
+            className="card md:w-96 m-2 h-72 bg-base-100 shadow-xl hover:bg-base-300 group"
           >
             <div className="card-body">
               <div className="text-5xl group-hover:text-secondary">

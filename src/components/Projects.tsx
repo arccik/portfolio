@@ -1,6 +1,6 @@
 import Card from "./Card";
 import data from "../data/projects.json";
-
+import React from "react";
 
 export default function RecentProjects() {
   return (
@@ -11,10 +11,10 @@ export default function RecentProjects() {
           (More coming soon)
         </span>
       </div>
-      <div className="carousel rounded-box flex flex-col md:flex-row gap-10 m-2">
+      <div className="carousel rounded-box flex flex-col md:flex-row m-2 gap-4">
         {data.map((project) => (
-          <>
-            <div key={project.title} className="carousel-item">
+          <React.Fragment key={project.title}>
+            <div className="carousel-item">
               <Card
                 title={project.title}
                 description={project.description}
@@ -24,7 +24,7 @@ export default function RecentProjects() {
               />
             </div>
             <div className="divider md:hidden"></div>
-          </>
+          </React.Fragment>
         ))}
       </div>
     </div>

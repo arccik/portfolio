@@ -14,8 +14,8 @@ export default function Hero() {
         />
         <div>
           <motion.h1
-            initial={{ y: 200 }}
-            whileInView={{ y: 0 }}
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
             className="text-4xl md:text-5xl font-medium"
           >
             <span className="text-primary"> Hi there</span>, I'm Artur

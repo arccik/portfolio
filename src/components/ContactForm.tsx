@@ -29,7 +29,7 @@ export default function GetInTouch() {
   if (isEmailSent)
     return <p className="text-center text-5xl bg-base-300">Email Sent</p>;
   return (
-    <div className="flex flex-col items-center justify-end md:justify-center w-full  bg-base-300 pb-10">
+    <div className="flex flex-col items-center justify-end md:justify-center w-full h-full bg-base-300 pb-10">
       <div></div>
       <div className="carousel-indicator text-center p-5" id="contact">
         <h1 className="text-4xl font-bold">Contact me</h1>
@@ -46,6 +46,7 @@ export default function GetInTouch() {
         <input
           type="text"
           name="name"
+          required
           placeholder="Your Name"
           className="input input-bordered input-primary w-full max-w-xs"
         />
@@ -53,10 +54,12 @@ export default function GetInTouch() {
         <input
           type="email"
           name="email"
+          required
           placeholder="Your Email"
           className="input input-bordered input-primary w-full max-w-xs"
         />
         <textarea
+          required
           name="message"
           className="textarea textarea-bordered textarea-primary w-full max-w-xs"
           placeholder="Message"
