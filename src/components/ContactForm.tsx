@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Lottie from "lottie-react";
+import animationData from "../assets/lottie/email-send.json";
 
 export default function GetInTouch() {
   const [isEmailSent, setIsEmailSent] = useState(false);
@@ -26,12 +28,17 @@ export default function GetInTouch() {
         );
     }
   };
-  if (isEmailSent)
-    return <p className="text-center text-5xl bg-base-300">Email Sent</p>;
+  if (isEmailSent) {
+    return (
+      <div>
+        <p className="text-center text-4xl mt-10">Email Sent</p>
+        <Lottie animationData={animationData} width={500} height={500} />
+      </div>
+    );
+  }
   return (
-    <div className="flex flex-col items-center justify-end md:justify-center w-full h-full bg-base-300 pb-10">
-      <div></div>
-      <div className="carousel-indicator text-center p-5" id="contact">
+    <div className="flex flex-col items-center justify-end md:justify-center w-full h-full  pb-10 bg-white">
+      <div className="carousel-indicator text-center p-5 " id="contact">
         <h1 className="text-4xl font-bold">Contact me</h1>
         <span className="text-secondary text-xs font-light">
           Got an idea? Feel free to reach out for collabs

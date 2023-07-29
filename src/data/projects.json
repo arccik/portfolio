@@ -4,15 +4,17 @@
     "title": "MessageTTF",
     "description": "Web App where you can store your cherished memories in the form of messages, photos, and audio files. Set a date range, and we'll send your time capsule right when the future-you least expects it!",
     "image": "/assets/images/messagettf--timecapsule-page.png",
-    "link": "/",
-    "tags": ["T3 Stack", "tRPC", "TypeScript", "Tailwindcss", "Twilio API"]
+    "link": "https://messagettf.com",
+    "github_link": "https://github.com/arccik/time-capsule",
+    "tags": ["tRPC", "Tailwindcss", "Twilio API"]
   },
   {
     "id": 1,
     "title": "Club Chaser",
     "description": "The ultimate guide to the nightlife and events in the United Kingdom. Not only offers valuable insights into the vibrant nightlife but also provides the convenience of purchasing tickets and accessing event locations through an interactive map.",
     "image": "/assets/images/clubchaser---main-page.png",
-    "link": "/",
+    "link": "https://club-chaser.vercel.app",
+    "github_link": "https://github.com/arccik/new-strip-radar",
     "tags": ["NextJS", "Google Map Api", "AWS S3"]
   },
   {
@@ -20,7 +22,8 @@
     "title": "Warehouse Stock Check",
     "description": "A User-friendly warehouse stock checking app! Allow you to effortlessly manage and monitor your inventory in real-time. Stay informed about the availability of products, track their movement within the warehouse, and streamline your operations for optimal efficiency.",
     "image": "/assets/images/inventory--stock-check.png",
-    "link": "/",
+    "link": "",
+    "github_link": "https://github.com/arccik/warhouse-operation",
     "tags": ["NextJS", "MUI", "Data Grid"]
   },
   {
@@ -28,7 +31,8 @@
     "title": "ChatROOM",
     "description": "Chat rooms to meet new friends from all over the world.",
     "image": "/assets/images/chatroom-chats.png",
-    "link": "/",
+    "link": "",
+    "github_link": "https://github.com/arccik/ChatRoom",
     "tags": ["SocketIO", "ReactJS", "ExpressJS"]
   }
 ]

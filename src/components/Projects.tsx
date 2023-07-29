@@ -21,6 +21,8 @@ export default function RecentProjects() {
                 image={project.image}
                 tags={project.tags}
                 key={project.id}
+                link={project.link}
+                githubLink={project.github_link}
               />
             </div>
             <div className="divider md:hidden"></div>
