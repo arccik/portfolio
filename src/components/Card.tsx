@@ -25,14 +25,14 @@ export default function Card({
           <div className="ml-auto flex flex-row gap-10">
             {githubLink && (
               <a href={githubLink} target="_blank" rel="noreferrer">
-                <div className="tooltip tooltip-open" data-tip="GitHub">
+                <div className="tooltip " data-tip="GitHub">
                   <BsGithub size={20} />
                 </div>
               </a>
             )}
             {link && (
               <a href={link} target="_blank" rel="noreferrer">
-                <div className="tooltip tooltip-open " data-tip="Link">
+                <div className="tooltip  " data-tip="Visit website">
                   <BsGlobe size={20} />
                 </div>
               </a>
