@@ -5,7 +5,7 @@
     "description": "RentMyTime is a online platform that connects individuals seeking specific services or companionship with individuals offering their time and expertise.",
     "image": "/assets/images/rent-my-time.png",
     "link": "https://rentmytime.co.uk",
-    "tags": ["Typesript", "Tailwindcss", "AWS S3", "Realtime chat"]
+    "tags": ["TypeScript", "NextJs", "Tailwindcss", "AWS S3", "AWS Lambda"]
   },
   {
     "id": 342,
