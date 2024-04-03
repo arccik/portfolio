@@ -4,17 +4,17 @@ import React from "react";
 
 export default function RecentProjects() {
   return (
-    <div className="bg-base-300 min-h-screen md:flex  md:items-center overflow-auto">
+    <div className="bg-base-300 min-h-screen md:flex  md:items-center overflow-auto justify-center">
       <div className="carousel-indicator text-center p-5">
         <h1 className="text-4xl font-bold">Projects</h1>
-        <span className="text-secondary text-xs font-light">
-          (More coming soon)
+        <span className="text-secondary text-xs font-light text-ellipsis">
+          From inception to production.
         </span>
       </div>
-      <div className="carousel rounded-box flex flex-col md:flex-row m-2 gap-4">
+      <div className="carousel rounded-box flex flex-wrap m-10 gap-4">
         {data.map((project) => (
           <React.Fragment key={project.title}>
-            <div className="carousel-item">
+            <div className="carousel-item w-[350px] h-[400px]">
               <Card
                 title={project.title}
                 description={project.description}

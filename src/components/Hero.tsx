@@ -20,11 +20,11 @@ export default function Hero() {
             my exciting works. If you have any questions or would like to
             discuss potential collaborations, please feel free to reach out
           </p>
-          <div className="flex justify-center md:justify-normal">
+          {/* <div className="flex justify-center md:justify-normal">
             <a href="#contact" className="btn btn-primary w-full md:w-40">
               Contact me
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

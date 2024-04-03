@@ -3,12 +3,11 @@ import emailjs from "@emailjs/browser";
 import Lottie from "lottie-react";
 import animationData from "../assets/lottie/email-send.json";
 
-export default function GetInTouch() {
+export default function ContactForm() {
   const [isEmailSent, setIsEmailSent] = useState(false);
   const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e: React.FormEvent) => {
-    e.preventDefault();
+  const sendEmail = () => {
     if (form.current) {
       emailjs
         .sendForm(
@@ -47,7 +46,6 @@ export default function GetInTouch() {
 
       <form
         ref={form}
-        onSubmit={sendEmail}
         className="form-control w-full max-w-xs flex flex-col justify-between gap-5"
       >
         <input
@@ -71,7 +69,13 @@ export default function GetInTouch() {
           className="textarea textarea-bordered textarea-primary w-full max-w-xs"
           placeholder="Message"
         ></textarea>
-        <button className="btn btn-primary block">Send</button>
+        <button
+          onClick={sendEmail}
+          className="btn btn-primary block"
+          type="button"
+        >
+          Send
+        </button>
       </form>
     </div>
   );

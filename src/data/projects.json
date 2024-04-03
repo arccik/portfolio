@@ -21,7 +21,6 @@
     "title": "Club Chaser",
     "description": "The ultimate guide to the nightlife and events in the United Kingdom. Not only offers valuable insights into the vibrant nightlife but also provides the convenience of purchasing tickets and accessing event locations through an interactive map.",
     "image": "/assets/images/clubchaser---main-page.png",
-    "link": "https://club-chaser.vercel.app",
     "github_link": "https://github.com/arccik/new-strip-radar",
     "tags": ["NextJS", "Google Map Api", "AWS S3"]
   },

@@ -11,12 +11,9 @@ export default function Services() {
     <section className="md:flex md:flex-col md:justify-center items-center  bg-base-300">
       <div className="carousel-indicator text-center p-5">
         <h1 className="text-4xl font-bold">Services</h1>
-        <span className="text-secondary text-xs font-light">
-          I can help you with
-        </span>
       </div>
 
-      <div className="flex lg:flex-row flex-col gap-4 place-items-center pb-5">
+      <div className="flex lg:flex-row flex-col flex-wrap justify-center gap-4 place-items-center pb-5">
         {services.map((item, index) => (
           <div
             key={item.title}
