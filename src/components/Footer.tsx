@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p>Artur's Lozovski portfolio © 2023</p>
+        <p>Artur's Lozovski portfolio {new Date().getFullYear()}</p>
       </div>
     </footer>
   );
