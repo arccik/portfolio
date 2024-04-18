@@ -10,9 +10,7 @@ export default function Header() {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <ContactFormModal />
-          </li>
+          <li>{/* <ContactFormModal /> */}</li>
         </ul>
       </div>
     </header>

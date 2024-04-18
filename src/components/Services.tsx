@@ -8,11 +8,7 @@ import {
 export default function Services() {
   const icons = [<PiStrategyFill />, <PiTreePalmBold />, <PiBoundingBoxBold />];
   return (
-    <section className="md:flex md:flex-col md:justify-center items-center  bg-base-300">
-      <div className="carousel-indicator text-center p-5">
-        <h1 className="text-5xl text-primary">Services</h1>
-      </div>
-
+    <section className="md:flex md:flex-col md:justify-center items-center mt-10">
       <div className="flex lg:flex-row flex-col flex-wrap justify-center gap-4 place-items-center pb-5">
         {services.map((item, index) => (
           <div

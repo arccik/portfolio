@@ -4,9 +4,9 @@ import animationData from "../assets/lottie/designer-animation.json";
 
 export default function Hero() {
   return (
-    <div className="hero md:h-screen h-[100wvh] bg-base-200 ">
-      <div className="hero-content flex-col md:flex-row-reverse md:w-2/3">
-        <Lottie animationData={animationData} width={500} height={500} />
+    <section className="hero flex-col min-h-screen md:w-1/2">
+      <div className="hero-content flex-col md:flex-row-reverse">
+        {/* <Lottie animationData={animationData} width={500} height={500} /> */}
         <div>
           <motion.h1
             initial={{ scale: 0, opacity: 0 }}
@@ -27,6 +27,6 @@ export default function Hero() {
           </div> */}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

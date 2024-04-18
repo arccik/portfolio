@@ -18,7 +18,7 @@ export default function Card({
   githubLink,
 }: Props) {
   return (
-    <div className="card md:w-96 w-full bg-base-100 shadow-xl">
+    <div className="card md:w-96 w-full bg-base-200 shadow-xl">
       <div className="card-body">
         <div className="flex">
           <h2 className="card-title justify-start">{title}</h2>
