@@ -1,6 +1,5 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-// import Hero from "./components/Hero";
 import MyInfo from "./components/MyInfo";
 import Services from "./components/Services";
 import RecentProjects from "./components/Projects";
@@ -10,7 +9,6 @@ function App() {
     <>
       <Header />
       <div className="flex-col lg:flex-row flex lg:h-[calc(100%-140px)] bg-base-300">
-        {/* <Hero /> */}
         <MyInfo />
         <RecentProjects />
       </div>
