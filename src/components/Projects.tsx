@@ -4,7 +4,7 @@ import React from "react";
 
 export default function RecentProjects() {
   return (
-    <section className="overflow-scroll h-[calc(100vh-60px)] rounded-tl-xl">
+    <section className="overflow-scroll md:h-[calc(100vh-60px)] rounded-tl-xl">
       <div className="p-5 text-center">
         <h1 className="font-bold lg:font-semibold text-xl lg:text-4xl mb-1 lg:mb-3">
           Projects

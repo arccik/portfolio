@@ -3,7 +3,7 @@ import { socialLinks } from "../data/socialLinks";
 
 export default function MyInfo() {
   return (
-    <section className="shrink-0 space-y-4 lg:space-y-8 lg:w-[350px] xl:w-[500px] p-6 lg:p-16 lg:pr-0 xl:pr-16 overflow-auto">
+    <section className="shrink-0 space-y-4 lg:space-y-8 lg:w-[350px] xl:w-[500px] p-6 lg:p-16 lg:pr-0 xl:pr-16 md:overflow-auto">
       <div className="flex gap-4 lg:gap-8 lg:flex-col justify-start items-start">
         <span className="relative shrink-0">
           <img
