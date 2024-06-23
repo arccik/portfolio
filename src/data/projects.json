@@ -1,5 +1,13 @@
 [
   {
+    "id": 424144,
+    "title": "Point of sales",
+    "description": "Streamline your sales with our lightweight, web-based POS system.  Enjoy a modern, easy-to-use interface that's accessible from any device.",
+    "image": "/assets/images/POS.jpeg",
+    "link": "https://rentmytime.co.uk",
+    "tags": ["TypeScript", "ReactJS", "ExpressJS", "Tailwindcss"]
+  },
+  {
     "id": 4325,
     "title": "Rent My Time",
     "description": "RentMyTime is a online platform that connects individuals seeking specific services or companionship with individuals offering their time and expertise.",
@@ -35,5 +43,4 @@
     "github_link": "https://github.com/arccik/warhouse-operation",
     "tags": ["NextJS", "MUI", "Data Grid"]
   }
-
 ]
