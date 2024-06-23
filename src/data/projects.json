@@ -4,7 +4,7 @@
     "title": "Point of sales",
     "description": "Streamline your sales with our lightweight, web-based POS system.  Enjoy a modern, easy-to-use interface that's accessible from any device.",
     "image": "/assets/images/POS.jpeg",
-    "link": "https://rentmytime.co.uk",
+    "link": "http://18.134.171.187/login",
     "tags": ["TypeScript", "ReactJS", "ExpressJS", "Tailwindcss"]
   },
   {
