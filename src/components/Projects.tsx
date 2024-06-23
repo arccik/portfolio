@@ -14,7 +14,7 @@ export default function RecentProjects() {
         </span>
       </div>
       <div className="bg-base-300">
-        <div className="rounded-box flex flex-wrap p-2 md:p-10 justify-center gap-4">
+        <div className="rounded-box flex flex-wrap p-2 sm:justify-center gap-4 flex-grow">
           {data.map((project) => (
             <React.Fragment key={project.title}>
               <div>

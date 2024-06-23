@@ -34,14 +34,6 @@
     "link": "",
     "github_link": "https://github.com/arccik/warhouse-operation",
     "tags": ["NextJS", "MUI", "Data Grid"]
-  },
-  {
-    "id": 3,
-    "title": "ChatROOM",
-    "description": "Chat rooms to meet new friends from all over the world.",
-    "image": "/assets/images/chatroom-chats.png",
-    "link": "",
-    "github_link": "https://github.com/arccik/ChatRoom",
-    "tags": ["SocketIO", "ReactJS", "ExpressJS"]
   }
+
 ]
