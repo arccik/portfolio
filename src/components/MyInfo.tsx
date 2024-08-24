@@ -14,7 +14,7 @@ export default function MyInfo() {
             data-nimg="1"
             className="w-20 h-20 lg:w-44 lg:h-44 rounded-full object-cover"
             style={{ color: "transparent" }}
-            src="/assets/images/me-funny-face.png"
+            src="/assets/images/just-me.jpg"
           />
           <div className="absolute inset-0 rounded-full shadow-[0_0_0px_1px_rgba(0,0,0,0.06)]"></div>
         </span>
