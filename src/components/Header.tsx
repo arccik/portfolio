@@ -1,9 +1,15 @@
 import ContactFormModal from "./ContactFormModal";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <header className=" p-4">
-      <div className="navbar bg-base-100 shadow-lg navbar-center  border-primary border-b rounded-box">
+    <motion.header
+      className=" p-4"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="navbar bg-base-200 shadow-lg navbar-center  border-primary border-b rounded-box">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">
             Artur's <span className="text-primary">Portfolio</span>
@@ -17,6 +23,6 @@ export default function Header() {
           </ul>
         </div>
       </div>
-    </header>
+    </motion.header>
   );
 }

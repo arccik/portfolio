@@ -22,16 +22,26 @@ export default function Card({
       <div className="card-body">
         <div className="flex">
           <h2 className="card-title justify-start">{title}</h2>
-          <div className="ml-auto flex flex-row gap-10">
+          <div className="ml-auto flex flex-row gap-4 duration-500">
             {githubLink && (
-              <a href={githubLink} target="_blank" rel="noreferrer">
+              <a
+                href={githubLink}
+                className=" text-primary  hover:scale-105"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="tooltip " data-tip="GitHub">
                   <BsGithub size={20} />
                 </div>
               </a>
             )}
             {link && (
-              <a href={link} target="_blank" rel="noreferrer">
+              <a
+                href={link}
+                className="text-primary-focus hover:scale-105"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="tooltip  " data-tip="Visit website">
                   <BsGlobe size={20} />
                 </div>
