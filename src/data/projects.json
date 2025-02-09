@@ -13,7 +13,7 @@
     "title": "BoostFC",
     "description": "Built gaming e-commerce platform handling $250k+ in transactions. Integrated Stripe and cryptocurrency payments while maintaining PCI compliance. Features include real-time order tracking and automated service delivery system, resulting in 40% repeat customer rate.",
     "image": "/assets/images/boostfc--page.jpeg",
-    "link": "https://ecommerce-psi.vercel.app",
+    "link": "https://boostfc.com",
     "github_link": "",
     "tags": ["NextJS", "Tailwind CSS", "Stripe API", "Crypto Payment API"]
   },

@@ -18,11 +18,11 @@ export default function Card({
   githubLink,
 }: Props) {
   return (
-    <div className="card md:w-96 w-full bg-base-200 shadow-xl">
+    <div className="card md:w-96 w-full bg-base-200 shadow-xl group">
       <div className="card-body">
         <div className="flex">
           <h2 className="card-title justify-start">{title}</h2>
-          <div className="ml-auto flex flex-row gap-4 duration-500">
+          <div className="ml-auto flex flex-row gap-4 duration-500 group-active:scale-125 group-active:animate-bounce  text-nowrap transition-all relative after:content-['Links'] after:absolute after:bottom-8 after:left-0 after:right-0 after:text-xs after:opacity-0 group-active:after:opacity-100 after:transition-opacity ">
             {githubLink && (
               <a
                 href={githubLink}

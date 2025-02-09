@@ -17,7 +17,7 @@ export default function MyInfo() {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className="flex flex-col items-center  border-b">
+        <div className="flex flex-col items-center  border-b border-primary rounded-box">
           <motion.span
             className="relative shrink-0"
             whileHover={{ scale: 1.05 }}
