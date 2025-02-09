@@ -1,4 +1,4 @@
-import { CiLinkedin, CiMail, CiTwitter } from "react-icons/ci";
+import { CiLinkedin, CiMail } from "react-icons/ci";
 import { PiGithubLogoThin } from "react-icons/pi";
 export const socialLinks = [
   {
@@ -10,11 +10,6 @@ export const socialLinks = [
     name: "Github",
     icon: PiGithubLogoThin,
     link: "https://github.com/arccik",
-  },
-  {
-    name: "Twitter",
-    icon: CiTwitter,
-    link: "https://x.com/arccik",
   },
   {
     name: "Email",

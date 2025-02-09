@@ -4,7 +4,7 @@ import React from "react";
 
 export default function RecentProjects() {
   return (
-    <section className="overflow-scroll md:h-[calc(100vh-60px)] rounded-tl-xl">
+    <section className="p-6 lg:p-12 lg:pt-16 lg:pb-16 ">
       <div className="p-5 text-center">
         <h1 className="font-bold lg:font-semibold text-xl lg:text-4xl mb-1 lg:mb-3">
           Projects
@@ -13,7 +13,7 @@ export default function RecentProjects() {
           From inception to production.
         </span>
       </div>
-      <div className="bg-base-300">
+      <div>
         <div className="rounded-box flex flex-wrap p-2 sm:justify-center gap-4 flex-grow">
           {data.map((project) => (
             <React.Fragment key={project.title}>

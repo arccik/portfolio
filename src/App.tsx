@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex-col lg:flex-row flex lg:h-[calc(100%-140px)] bg-base-300">
-        <MyInfo />
-        <RecentProjects />
-      </div>
+      {/* <div className="flex-col lg:flex-row flex lg:h-[calc(100%-140px)] bg-base-300"> */}
+      <MyInfo />
+      <RecentProjects />
+      {/* </div> */}
       <Services />
       <Footer />
     </>
