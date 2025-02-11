@@ -29,7 +29,7 @@ export default function MyInfo() {
               height="140"
               decoding="async"
               data-nimg="1"
-              className="w-28 h-28 lg:w-36 lg:h-36 rounded-full object-cover border-4 border-base-300 p-1"
+              className="size-36 lg:size-48 rounded-full object-cover border-4 border-base-300 p-1"
               style={{ color: "transparent" }}
               src="/assets/images/just-me.jpg"
             />
