@@ -9,7 +9,7 @@ export default function Header() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="navbar shadow-lg navbar-center base-300  border-primary border-b rounded-box">
+      <div className="navbar shadow-md navbar-center base-300   rounded-box">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl font-extrabold">
             Artur<span className="text-primary">Lozovski</span>

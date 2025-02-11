@@ -24,7 +24,7 @@ export default function MyInfo() {
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           >
             <img
-              alt="marclou profile picture"
+              alt="Artur profile picture"
               width="140"
               height="140"
               decoding="async"
@@ -67,7 +67,7 @@ export default function MyInfo() {
             <h2 className="flex gap-2 items-center">
               <CiLocationOn className="size-5 lg:size-6" />
               <span className="text-base-content/80 text-lg lg:text-xl">
-                London
+                London, United Kingdom
               </span>
             </h2>
           </div>
